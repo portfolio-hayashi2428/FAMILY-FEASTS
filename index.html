@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAMILY FEASTS</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "cjw0ooz",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    <!-- ヘッダーここから -->
+    <header>
+      <div class="nav-wrapper">
+        <h1>
+          <a href="index.html">
+            <img class="logo" src="./img/family_feasts_logo.svg" alt="" />
+          </a>
+        </h1>
+
+        <!-- ナビ部分(PC) -->
+        <nav class="nav-pc">
+          <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#business">BUSINESS</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#company">COMPANY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- ナビ部分(SP) -->
+
+      <div class="nav-sp">
+        <div class="openbtn"><span></span><span></span><span></span></div>
+        <nav id="g-nav">
+          <div id="g-nav-list">
+            <ul>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#ourservices">OUR SERVICES</a></li>
+              <li><a href="#news">NEWS</a></li>
+              <li><a href="#company">COMPANY</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ヘッダーここまで -->
+
+    <!-- メインビジュアルここから -->
+    <main>
+      <section class="mainvisual">
+        <div class="main-back-img">
+          <img class="main-img-pc" src="./img/main_pc.svg" alt="" />
+          <img class="main-img-sp" src="./img/main_sp.svg" alt="" />
+        </div>
+      </section>
+      <!-- メインビジュアルここまで -->
+
+      <!-- ABOUTここから -->
+      <section class="about" id="about">
+        <img class="about-img" src="./img/about.jpeg" alt="" />
+        <div class="about-text-wrapper">
+          <h2>ABOUT</h2>
+          <p class="about-heading">会社内容</p>
+          <p class="about-text">
+            「FAMILY
+            FEASTS」は、家庭に笑顔を届ける食品問屋です。私たちは、健康で安全な食生活をすべての家庭に提供することを目指しています。オーガニック食品、アレルギーフリー食品、簡単調理食材を中心に、質の高い食品をリーズナブルな価格でご提供。地元の農家や生産者から直接仕入れることで新鮮で安心な食材を皆様の食卓へお届けします。
+          </p>
+        </div>
+      </section>
+      <!-- ABOUTここまで-->
+
+      <!-- サービス内容ここから -->
+      <section class="ourservices" id="ourservices">
+        <div class="ourservices-wrapper">
+          <div class="ourservices-heading">
+            <h2>OUR SERVICES</h2>
+            <p>サービス内容</p>
+          </div>
+
+          <div class="ourservices-wrapper1">
+            <div class="ourservices1">
+              <p class="ourservices-text">・農薬不使用の安心食材</p>
+              <img class="ourservices-img" src="./img/image1.jpeg" alt="" />
+            </div>
+
+            <div class="ourservices2">
+              <p class="ourservices-text">・アレルギーフリー食品</p>
+              <img class="ourservices-img" src="./img/image2.jpeg" alt="" />
+            </div>
+          </div>
+
+          <div class="ourservices-wrapper2">
+            <div class="ourservices3">
+              <p class="ourservices-text">・簡単調理食材</p>
+              <img class="ourservices-img" src="./img/image3.jpeg" alt="" />
+            </div>
+
+            <div class="ourservices4">
+              <p class="ourservices-text">・地産地消支援</p>
+              <img class="ourservices-img" src="./img/image4.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="button">
+          <a href="#">詳しく見る</a>
+        </div>
+      </section>
+      <!-- サービス内容ここまで -->
+
+      <!-- NEWSここから -->
+      <section class="news" id="news">
+        <div class="news-heading">
+          <h2>NEWS</h2>
+          <p>ニュース</p>
+        </div>
+
+        <dl class="news-list">
+          <div class="news-item">
+            <dt>2024.4.12 <span>新入荷</span></dt>
+            <dd>
+              <a href="#">オーガニック野菜ラインナップ拡大</a>
+            </dd>
+          </div>
+
+          <div class="news-item">
+            <dt>2024.3.20 <span>新商品</span></dt>
+            <dd>
+              <a href="#">アレルギーフリーおやつシリーズ新登場</a>
+            </dd>
+          </div>
+
+          <div class="news-item">
+            <dt>2024.2.15 <span>新連携</span></dt>
+            <dd>
+              <a href="#">地元支援強化！新たなパートナーシップを開始</a>
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <!-- NWESここまで -->
+
+      <!-- COMPANYここから -->
+      <section class="company" id="company">
+        <div class="company-wrap">
+          <div class="company-heading">
+            <h2>COMPANY</h2>
+            <p>会社情報</p>
+          </div>
+
+          <table class="kaisha">
+            <tr>
+              <th>会社名</th>
+              <td>FAMILY FEASTS</td>
+            </tr>
+            <tr>
+              <th>所在地</th>
+              <td>東京都千代田区丸の内121 日本食品センタービル3F</td>
+            </tr>
+            <tr>
+              <th>代表</th>
+              <td>田中 雄二</td>
+            </tr>
+            <tr>
+              <th>設立</th>
+              <td>2013年11月1日</td>
+            </tr>
+            <tr>
+              <th>資本金</th>
+              <td>1,000万円</td>
+            </tr>
+            <tr>
+              <th>事業内容</th>
+              <td>
+                食品問屋業務<br />
+                オーガニック食品の販売<br />
+                アレルギーフリー食品の販売<br />
+                地産地消支援<br />
+              </td>
+            </tr>
+          </table>
+
+          <img class="company-img" src="./img/kaisha.jpeg" alt="" />
+        </div>
+      </section>
+    </main>
+    <!-- COMPANYここまで -->
+
+    <!-- CONTACTここまで -->
+    <section class="contact" id="contact">
+      <div class="contact-heading">
+        <h2>CONTACT</h2>
+        <p>お問い合わせ</p>
+      </div>
+
+      <div class="content-list">
+        <form action="#">
+          <dl class="form-area">
+            <dt><label for="name">名前</label><span>必須</span></dt>
+            <dd>
+              <input type="text" id="name" name="your-name" />
+              <p id="name-error" class="error-text"></p>
+            </dd>
+
+            <dt>お客様の業態<span>必須</span></dt>
+            <dd>
+              <input
+                type="radio"
+                id="individual"
+                name="customer-type"
+                value="individual"
+                checked
+              />
+              <label for="individual">個人</label><br />
+              <input
+                type="radio"
+                id="business"
+                name="customer-type"
+                value="business"
+              />
+              <label for="business">企業・店舗</label>
+              <p id="customer-type-error" class="error-text"></p>
+            </dd>
+
+            <dt><label for="content-company">会社名</label></dt>
+            <dd>
+              <input type="text" id="content-company" name="your-company" />
+            </dd>
+
+            <dt><label for="phone">電話番号</label><span>必須</span></dt>
+            <dd>
+              <input type="text" id="phone" name="your-phone" />
+              <p id="phone-error" class="error-text"></p>
+            </dd>
+
+            <dt><label for="email">メールアドレス</label><span>必須</span></dt>
+            <dd>
+              <input type="email" id="email" name="your-email" />
+              <p id="email-error" class="error-text"></p>
+            </dd>
+
+            <dt>
+              <label for="inquiry">お問い合わせ内容</label><span>必須</span>
+            </dt>
+            <dd>
+              <textarea id="inquiry" name="your-inquiry" rows="5"></textarea>
+              <p id="inquiry-error" class="error-text"></p>
+            </dd>
+          </dl>
+
+          <div class="button-area">
+            <button id="submit-button" type="submit">確 認</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- CONTACTここまで -->
+
+    <!-- フッターここから -->
+    <footer>
+      <div class="footer">
+        <div class="footer-wrapper">
+          <img
+            class="footer-logo"
+            src=".//img/family_feasts_footer_logo.svg"
+            alt=""
+          />
+          <p class="footer-text">
+            FAMILY FEASTS Inc.<br />
+            Japan Food Center Building 3F<br />
+            121 Marunouchi, Chiyoda-ku<br />
+            Tokyo, Japan 100-0005<br />
+            T/03-1233-5677<br />
+          </p>
+        </div>
+        <p class="copy">© FAMILY FEASTS Inc.</p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+    <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/3-1-2/js/3-1-2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+  <!-- フッターここまで -->
+</html>
