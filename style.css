@@ -24,7 +24,7 @@ body {
 .logo {
   z-index: 100;
   width: 77%;
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 .nav-pc ul {
@@ -880,6 +880,10 @@ input[type="radio"] {
 
   .about {
     margin-top: -20%;
+  }
+
+  .about {
+    margin-bottom: 15%;
   }
 }
 
