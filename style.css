@@ -845,6 +845,7 @@ input[type="radio"] {
   .footer-text {
     margin-top: 3%;
     text-align: center;
+    line-height: 1.4;
   }
 
   .footer-logo {
