@@ -7,6 +7,9 @@ setTimeout(function () {
   }
 }, 3000);
 
+/*-------------------------------------------
+ハンバーガーメニュー
+-------------------------------------------*/
 $(".openbtn").click(function () {
   $(this).toggleClass("active");
   $("#g-nav").toggleClass("panelactive");
@@ -17,6 +20,9 @@ $("#g-nav a").click(function () {
   $("#g-nav").removeClass("panelactive");
 });
 
+/*-------------------------------------------
+ふわっと表示 
+-------------------------------------------*/
 $(".about ,.ourservices ,.news ,.company-wrap ,.contact").on(
   "inview",
   function (event, isInView) {
