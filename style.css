@@ -600,8 +600,7 @@ input[type="radio"] {
     justify-content: center;
   }
 
-  /*========= ナビ部分（SP） ===============*/
-
+  /* ナビ部分_SP */
   .nav-sp {
     display: block;
   }
@@ -656,7 +655,6 @@ input[type="radio"] {
     font-weight: bold;
   }
 
-  /*========= ナビボタン部分 ===============*/
   .openbtn {
     position: fixed;
     z-index: 9999;
