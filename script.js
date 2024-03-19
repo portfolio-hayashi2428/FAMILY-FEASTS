@@ -7,26 +7,21 @@ setTimeout(function () {
   }
 }, 3000);
 
-//ハンバーガーメニュー
 $(".openbtn").click(function () {
-  //ボタンがクリックされたら
-  $(this).toggleClass("active"); //ボタン自身に activeクラスを付与し
-  $("#g-nav").toggleClass("panelactive"); //ナビゲーションにpanelactiveクラスを付与
+  $(this).toggleClass("active");
+  $("#g-nav").toggleClass("panelactive");
 });
 
 $("#g-nav a").click(function () {
-  //ナビゲーションのリンクがクリックされたら
-  $(".openbtn").removeClass("active"); //ボタンの activeクラスを除去し
-  $("#g-nav").removeClass("panelactive"); //ナビゲーションのpanelactiveクラスも除去
+  $(".openbtn").removeClass("active");
+  $("#g-nav").removeClass("panelactive");
 });
 
-//スクロールをしたら1度だけアニメーションをする設定
 $(".about ,.ourservices ,.news ,.company-wrap ,.contact").on(
   "inview",
   function (event, isInView) {
     if (isInView) {
-      //表示領域に入った時
-      $(this).addClass("active"); //クラス名が付与
+      $(this).addClass("active");
     }
   }
 );
